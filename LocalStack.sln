@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sender", "Sender\Sender.csproj", "{58006EB7-8B35-46DA-8F65-D105CAC7FFBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{6B3492F5-2C83-4E78-B27F-3C9D5DDC17DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsServices", "AwsServices\AwsServices.csproj", "{9416EC9E-E39D-4569-956B-CF187059DFCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaSendToBucket", "LambdaSendToBucket\LambdaSendToBucket.csproj", "{2646C6A1-2FFD-4EDA-9079-C8B49D964FD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58006EB7-8B35-46DA-8F65-D105CAC7FFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58006EB7-8B35-46DA-8F65-D105CAC7FFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58006EB7-8B35-46DA-8F65-D105CAC7FFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58006EB7-8B35-46DA-8F65-D105CAC7FFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3492F5-2C83-4E78-B27F-3C9D5DDC17DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3492F5-2C83-4E78-B27F-3C9D5DDC17DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3492F5-2C83-4E78-B27F-3C9D5DDC17DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3492F5-2C83-4E78-B27F-3C9D5DDC17DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9416EC9E-E39D-4569-956B-CF187059DFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9416EC9E-E39D-4569-956B-CF187059DFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9416EC9E-E39D-4569-956B-CF187059DFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9416EC9E-E39D-4569-956B-CF187059DFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2646C6A1-2FFD-4EDA-9079-C8B49D964FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2646C6A1-2FFD-4EDA-9079-C8B49D964FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2646C6A1-2FFD-4EDA-9079-C8B49D964FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2646C6A1-2FFD-4EDA-9079-C8B49D964FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A67F0052-319D-444E-AD72-67D35A52D0AD}
+	EndGlobalSection
+EndGlobal
